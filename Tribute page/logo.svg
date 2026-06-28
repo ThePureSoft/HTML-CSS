@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <!-- Circle -->
+  <circle cx="40" cy="40" r="40" fill="#2EA6BC"></circle>
+
+  <!-- Text -->
+  <text x="24" y="37" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">
+    world
+  </text>
+
+  <text x="83" y="40" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#2EA6BC">
+    programming
+  </text>
+</svg>
