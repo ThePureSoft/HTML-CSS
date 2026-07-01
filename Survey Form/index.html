@@ -11,19 +11,42 @@
         <input type="text" id="neme" placeholder="Enter your name" />
       </div>
       <div>
-        <lable for="email" id="lable-email">Email</lable>
+        <label for="email" id="lable-email">Email</label>
         <input type="text" id="email" placeholder="Enter your email" />
       </div>
       <div>
-        <lable for="age" id="lable-age">Age</lable>
+        <label for="age" id="lable-age">Age</label>
         <input type="text" id="age" placeholder="Enter your age" />
       </div>
       <div class="form-control">
-        <lable> Are you happy?</lable>
-        <lable type="radio" id="recommend-1" name="recommend">Yes</lable>
-        <lable type="radio" id="recommend-2" name="recommend">NO</lable>
-        <lable type="radio" id="recommend-3" name="recommend">Mabe</lable>
+        <label> Are you happy?</label>
+        <label type="radio" id="recommend-1" name="recommend">Yes</label>
+        <label type="radio" id="recommend-2" name="recommend">NO</label>
+        <label type="radio" id="recommend-3" name="recommend">Mabe</label>
       </div>
+      <div class="form-control">
+        <label
+          >Language and Frameworks know
+          <small>(Check all that apply)</small>
+        </label>
+
+        <label for="inp-1"> 
+        <input type="checkbox" name="inp" />C
+        </label>
+
+        <label for="inp-2">
+          <input type="checkbox" name="inp">JavaScript
+        </label>
+
+        <label for="inp-3">
+          <input type="checkbox" name="inp">python
+        </label>
+      </div class="form-control">
+      <div>
+        <label for="comment">Any comment or suggestion</label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+      </div>
+      <button type="submit" value="submit">Submit</button>
     </form>
   </body>
 </html>
