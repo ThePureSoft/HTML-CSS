@@ -1,4 +1,4 @@
-<!DOCTYOE html>
+<!DOCTYpE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
@@ -7,42 +7,35 @@
     <h1>Survey form</h1>
     <form id="form">
       <div class="form-control">
-        <label for="name" id="lable-nema">Name</label>
-        <input type="text" id="neme" placeholder="Enter your name" />
-      </div>
-      <div>
+        <label for="name" id="lable-nama">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
         <label for="email" id="lable-email">Email</label>
         <input type="text" id="email" placeholder="Enter your email" />
-      </div>
-      <div>
         <label for="age" id="lable-age">Age</label>
-        <input type="text" id="age" placeholder="Enter your age" />
+        <input type="text" id="age" placeholder="Enter your age" maxlength="2"/>
       </div>
       <div class="form-control">
-        <label> Are you happy?</label>
-        <label type="radio" id="recommend-1" name="recommend">Yes</label>
-        <label type="radio" id="recommend-2" name="recommend">NO</label>
-        <label type="radio" id="recommend-3" name="recommend">Mabe</label>
+        <label> Are you happy?</label> 
+        <label> <input type="radio" name="happy" id="recommed-1">Yes</label>
+        <label> <input type="radio" name="happy" id="recommed-2">No</label>
+        <label> <input type="radio" name="happy" id="recommed-3">Maybe</label>
       </div>
       <div class="form-control">
         <label
           >Language and Frameworks know
           <small>(Check all that apply)</small>
         </label>
-
         <label for="inp-1"> 
         <input type="checkbox" name="inp" />C
         </label>
-
         <label for="inp-2">
           <input type="checkbox" name="inp">JavaScript
         </label>
-
         <label for="inp-3">
           <input type="checkbox" name="inp">python
         </label>
-      </div class="form-control">
-      <div>
+      </div>
+      <div class="form-control">
         <label for="comment">Any comment or suggestion</label>
         <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
       </div>
